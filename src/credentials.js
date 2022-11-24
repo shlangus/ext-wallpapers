@@ -1,6 +1,6 @@
 import keytar from 'keytar';
 
-const SERVICE_NAME = 'ext-wallpaper';
+const SERVICE_NAME = 'ext-wallpapers';
 
 export async function getCredentials(account) {
   return await keytar.getPassword(SERVICE_NAME, account);

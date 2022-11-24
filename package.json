@@ -12,10 +12,13 @@
   "engines": {
     "node": ">14"
   },
+  "files": [
+    "./src/**/*"
+  ],
   "dependencies": {
-    "keytar": "^7.9.0",
-    "openai": "^3.1.0",
-    "prompts": "^2.4.2",
-    "wallpaper": "^6.1.1"
+    "keytar": "7.9.0",
+    "openai": "3.1.0",
+    "prompts": "2.4.2",
+    "wallpaper": "6.1.1"
   }
 }
