@@ -1,7 +1,7 @@
 {
   "name": "ext-wallpapers",
-  "description": "",
-  "version": "1.0.0",
+  "description": "A CLI tool that gets your daily horoscope from aztro API uses it to generate an image using Dall-e 2 and sets it as a wallpaper.",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Andrei Mitrofanov",
   "type": "module",
@@ -9,16 +9,21 @@
   "bin": {
     "ext-wallpapers": "./src/cli.js"
   },
+  "dependencies": {
+    "keytar": "7.9.0",
+    "openai": "3.1.0",
+    "prompts": "2.4.2",
+    "wallpaper": "6.1.1"
+  },
   "engines": {
     "node": ">14"
   },
   "files": [
     "./src/**/*"
   ],
-  "dependencies": {
-    "keytar": "7.9.0",
-    "openai": "3.1.0",
-    "prompts": "2.4.2",
-    "wallpaper": "6.1.1"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shlangus/ext-wallpapers.git"
+  },
+  "homepage": "https://github.com/shlangus/ext-wallpapers"
 }
