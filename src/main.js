@@ -1,7 +1,7 @@
+import { setWallpaper } from 'wallpaper';
 import { Logger } from './logger.js';
 import { generate } from './generate.js';
 import { download } from './download.js';
-import { setWallpaper } from './set-wallpaper.js';
 import { getHoroscope } from './get-horoscope.js';
 import { getConfigKey } from './config.js';
 import { saveImage } from './save-image.js';
