@@ -1,0 +1,19 @@
+{
+  "name": "ext-wallpapers",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Andrei Mitrofanov",
+  "type": "module",
+  "main": "./src/cli.js",
+  "bin": {
+    "ext-wallpapers": "./src/cli.js"
+  },
+  "dependencies": {
+    "ffi-napi": "^4.0.3",
+    "keytar": "^7.9.0",
+    "openai": "^3.1.0",
+    "prompts": "^2.4.2",
+    "ref-napi": "^3.0.3",
+    "ref-wchar-napi": "^1.0.3"
+  }
+}
